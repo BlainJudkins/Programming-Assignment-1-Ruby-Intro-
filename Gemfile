@@ -1,8 +1,17 @@
-# frozen_string_literal: true
+# # frozen_string_literal: true
 
-source 'http://rubygems.org'
+# source 'http://rubygems.org'
 
-ruby '3.2.0'
+# ruby '2.6.6'
+
+# gem 'byebug'
+# gem 'rspec'
+
+source 'http://rubygems.org/'
+
+ruby "2.6.6"
+
+gem 'rspec', '~> 3.8'
+gem 'cucumber', '2.0.0'
 
 gem 'byebug'
-gem 'rspec'
